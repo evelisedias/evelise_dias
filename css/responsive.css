@@ -1,0 +1,89 @@
+/* Ajustes para telas menores que 1024px */
+@media (max-width: 1024px) {
+    .presentation {
+        padding: 10em;
+        font-size: 20px;
+        height: 70vh;
+    }
+    
+    .eu {
+        width: 30%;
+    }
+    
+    .nome {
+        font-size: 60px;
+    }
+
+    .projetos img {
+        width: 70%;
+        margin-left: 0;
+    }
+}
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    .presentation {
+        padding: 5em;
+        font-size: 18px;
+    }
+    
+    .eu {
+        width: 50%;
+    }
+    
+    .nome {
+        font-size: 50px;
+    }
+
+    .projetos img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Ajustes para telas menores que 576px (celulares) */
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 16px;
+    }
+
+    .presentation {
+        padding: 2em;
+        font-size: 16px;
+        height: 60vh;
+    }
+    
+    .eu {
+        width: 80%;
+    }
+    
+    .nome {
+        font-size: 40px;
+    }
+
+    .sobre__mim,
+    .projetos {
+        padding: 2em;
+        font-size: 18px;
+    }
+    
+    .projetos img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contato {
+        padding: 2em;
+        font-size: 18px;
+    }
+
+    .contact-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
