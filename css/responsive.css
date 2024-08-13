@@ -1,5 +1,10 @@
 /* Ajustes para telas menores que 1024px */
 @media (max-width: 1024px) {
+    .navbar {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
     .presentation {
         padding: 10em;
         font-size: 20px;
@@ -22,9 +27,9 @@
 
 /* Ajustes para telas menores que 768px */
 @media (max-width: 768px) {
-    .presentation {
-        padding: 5em;
-        font-size: 18px;
+    .navbar {
+        font-size: 16px;
+        padding: 6px 12px;
     }
     
     .eu {
@@ -44,13 +49,19 @@
 /* Ajustes para telas menores que 576px (celulares) */
 @media (max-width: 576px) {
     .navbar {
-        font-size: 16px;
+        font-size: 14px;
+        padding: 4px 8px;
     }
+
 
     .presentation {
         padding: 2em;
         font-size: 16px;
         height: 60vh;
+    }
+
+    .texto {
+        font-size: 16px;
     }
     
     .eu {
