@@ -45,7 +45,7 @@
             </div>
         </header>
         <div class="presentation">
-            <div class="texto">
+            <div>
                 <p> Oi, meu nome é</p>
                 <h1 class="nome">
                     Evelise Dias
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="sobre__mim" id="about">
-            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 640 512">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 640 512" class="icon-init">
                 <path fill="#5e4952"
                     d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
             </svg>
@@ -73,6 +73,7 @@
                 profundamente
                 as necessidades dos usuários, o que enriquece minha visão como desenvolvedora.
             </p>
+            <br>
             <p>
                 Sou graduanda em Análise e Desenvolvimento de Sistemas pela Unisinos, e tenho facilidade em trabalhar
                 com JAVA,
@@ -170,9 +171,10 @@
             </ul>
             <img src="img/gerador_de_senha.png" alt="Site gerador de moedas">
             </ul>
-            <button class="download"
-                onclick="window.open('https://drive.google.com/file/d/11sS-IT-FzhcU1DjOhB0yRrUDbc9kOl9E/view?usp=sharing', '_blank')">Clique
-                aqui para acessar o meu currículo</button>
+            <button class="download" id="downloadBtn"
+                onclick="window.open('https://drive.google.com/file/d/11sS-IT-FzhcU1DjOhB0yRrUDbc9kOl9E/view?usp=sharing', '_blank')">
+                Clique aqui para acessar o meu currículo
+            </button>
         </div>
         <div class="contato" id="contato">
             <p>
@@ -185,19 +187,19 @@
             </p>
             <div class="contact-icons">
                 <a href="mailto:evelisemacieldias@gmail.com">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 512 512">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512">
                         <path fill="#5e4952"
                             d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z" />
                     </svg>
                 </a>
                 <a href="https://www.linkedin.com/in/evelise-dias" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 448 512">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 448 512">
                         <path fill="#5e4952"
                             d="M100.3 480H7.4V176h92.9v304zm-46.3-346.7c-29.1 0-52.6-23.5-52.6-52.6s23.5-52.6 52.6-52.6c29.1 0 52.6 23.5 52.6 52.6s-23.5 52.6-52.6 52.6zm389.2 346.7h-92.9V327.2c0-36.9-13.1-62.1-45.8-62.1-24.9 0-39.7 16.8-46.2 33.1-2.4 5.8-3.1 13.8-3.1 21.8v160.7h-92.8c.1-257.8 0-285.5 0-285.5h92.8v40.4c12.4-19.1 34.7-46.6 84.5-46.6 61.8 0 108.3 40.4 108.3 127.6v164.1z" />
                     </svg>
                 </a>
                 <a href="https://github.com/evelisedias" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 512 512">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512">
                         <path fill="#5e4952"
                             d="M256 32C114.6 32 0 146.6 0 288c0 114.2 73.5 210.1 173.4 244.3 12.7 2.3 17.4-5.5 17.4-12.4 0-6-0.2-26.2-0.4-47.8-70.7 15.3-85.7-34.1-85.7-34.1-11.6-29.5-28.3-37.4-28.3-37.4-23.1-15.8 1.7-15.4 1.7-15.4 25.5 1.8 39.1 26.1 39.1 26.1 22.7 39.1 59.7 27.8 74.2 21.3 2.3-16.4 8.8-27.8 16.1-34.3-56.4-6.4-115.2-28.2-115.2-125.1 0-27.7 9.9-50.5 26.1-68.2-2.6-6.4-11.3-31.8 2.5-66.3 0 0 21.4-6.8 70.2 25.8 20.3-5.7 41.9-8.5 63.4-8.6 21.5 0.1 43.1 2.9 63.5 8.6 48.8-32.6 70.2-25.8 70.2-25.8 13.8 34.5 5.1 59.9 2.5 66.3 16.2 17.6 26.1 40.5 26.1 68.2 0 97.3-58.7 118.6-115.1 125.1 9.1 7.8 17.4 23.2 17.4 46.6 0 33.6-0.3 61.2-0.4 69.5 0 6.9 4.8 14.8 17.5 12.4C438.5 498.1 512 402.2 512 288 512 146.6 397.4 32 256 32z" />
                     </svg>
