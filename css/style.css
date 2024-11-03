@@ -3,7 +3,22 @@
     margin: 0;
     padding: 0;
 }
+.sobre__mim h1, .projetos h1, h5 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
 
+h5 {
+    margin-left: 20px;
+    margin-top: 2em;
+}
+.projetos li {
+    list-style-type: disc;
+    padding-left: 10px;
+    margin-left: 20px;
+}
 .composition {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -81,6 +96,7 @@
     margin-top: 10em;
     padding: 8em;
     font-size: 25px;
+    text-align: justify;
 
 }
 
@@ -103,6 +119,7 @@
     flex-direction: column;
     padding: 10em;
     font-size: 25px;
+    text-align: justify;
 }
 
 .projetos h4 {
@@ -116,7 +133,7 @@
 
 .projetos img {
     width: 50%;
-    margin-left: 20em;
+    margin-left: 10em;
     margin-top: 2em;
 }
 

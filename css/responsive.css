@@ -26,3 +26,77 @@
 }
 
 
+@media (max-width: 428px) {
+    .navbar {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .presentation {
+        padding: 10em;
+        font-size: 20px;
+        height: 70vh;
+    }
+    
+    .eu {
+        width: 30%;
+    }
+    
+    .nome {
+        font-size: 60px;
+    }
+
+    .projetos img {
+        width: 70%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 428px) {
+    .navbar {
+        font-size: 15px;
+    }
+
+    .download {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .presentation {
+        padding: 3em; 
+        font-size: 15px; 
+        margin-left: 25px;
+        height: 20vh; 
+
+    }
+
+    .nome {
+        font-size: 50px;
+        margin-right: 0; 
+        font-size: 20px;
+    }
+
+    .sobre__mim, .projetos, .contato {
+        padding: 5em; /* Reduzindo padding */
+        font-size: 20px; /* Diminuindo a fonte */
+    }
+
+    .musica-favorita {
+        padding: 2em; /* Reduzindo o padding */
+    }
+
+    .projetos img {
+        width: 100%; /* Tornando as imagens responsivas */
+        margin-left: 0; /* Removendo margem lateral */
+    }
+
+    .icon {
+        width: 70px; /* Reduzindo a largura do ícone */
+        height: 70px; /* Ajustando a altura do ícone */
+    }
+
+    .contact-icons {
+        flex-direction: column; /* Alterando direção para coluna */
+        gap: 10px; /* Reduzindo espaço entre ícones */
+    }
+}
