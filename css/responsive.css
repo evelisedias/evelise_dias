@@ -64,6 +64,10 @@
         font-weight: bold;
     }
 
+    .navbar {
+        display: none;
+    }
+
     .composition {
         font-family: 'Roboto', sans-serif;
     }
@@ -138,7 +142,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 300px) {
 
     .presentation {
         padding: 4em; 
