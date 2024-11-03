@@ -137,3 +137,13 @@
         padding: 5em;
     }
 }
+
+@media (max-width: 414px) {
+
+    .presentation {
+        padding: 4em; 
+        font-size: 15px; 
+        height: 30vh; 
+    }
+
+}
